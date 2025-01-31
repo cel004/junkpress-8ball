@@ -2,7 +2,7 @@ function shake8Ball() {
     const frontBall = document.getElementById('front');
     const blankBall = document.getElementById('blank');
     
-    frontBall.style.transition = 'opacity 0.4s';
+    frontBall.style.transition = 'opacity 0.5s';
     frontBall.style.opacity = 0;
 
     setTimeout(() => {
@@ -12,7 +12,7 @@ function shake8Ball() {
     setTimeout(() => {
         blankBall.style.animation = '';
         fadeInRandomImage();
-    }, 1400);
+    }, 1800);
 }
 
 function fadeInRandomImage() {
