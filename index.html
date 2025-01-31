@@ -10,8 +10,10 @@
         <div class="container">
             <div class="eightball-container">
                 <div class="eightball ">
-                    <img src="/assets/8ball/8BALL_FRONT.png" 
-                    width="70%" height="70%"alt="8Ball image">
+                    <img id="front" src="/assets/8ball/8BALL_FRONT.png" 
+                    width="75%" height="75%" z-index="2" alt="8Ball image">
+                    <img id="blank" src="/assets/8ball/8BALL_BLANK.png" 
+                    width="75%" height="75%"alt="8Ball image">
                 </div>
                 <div class="results"></div>
             </div>
@@ -20,8 +22,9 @@
                 <p style="font-size: 0.9rem; margin-top: -0.3rem;">(yes or no questions only)</p>
                 <div class="input-box">
                     <input type="text" id="userInput">
-                    <img src="/assets/button.png"
-                    width="11%" height="11%"alt="Submit button">
+                    <img id="submit-button" src="/assets/button.png"
+                    width="11%" height="11%"alt="Submit button"
+                    onclick="shake8Ball()">
                 </div>
             </div>
         </div>

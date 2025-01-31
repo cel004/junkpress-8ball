@@ -11,7 +11,7 @@ body {
     height: 100vh;
     width: 100vw;
     scroll-behavior: smooth;
-    background-image: url('/assets/8ballbackground-desktop.jpg');
+    background-image: url('/assets/8ballbackground-mobile.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,12 +73,23 @@ p {
     margin: 0;
 }
 .input-container {
-    padding: 1rem 0 0 0;
+    padding: 1.2rem 0 0 0;
 }
 .input-box {
     display: flex;
     justify-content: center; 
     align-items: center;
     gap: 0.4rem; 
-    padding-top: 0.8rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+#submit-button {
+    cursor: pointer;
+}
+
+#front {
+    position: absolute;
+    width: 75%; 
+    height: auto;
 }
