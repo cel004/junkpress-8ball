@@ -2,15 +2,17 @@ function shake8Ball() {
     const frontBall = document.getElementById('front');
     const blankBall = document.getElementById('blank');
     
-    frontBall.style.opacity = 1;
-    blankBall.style.animation = 'shake 1s ease-in-out';
     frontBall.style.transition = 'opacity 0.4s';
     frontBall.style.opacity = 0;
 
     setTimeout(() => {
+        blankBall.style.animation = 'shake 1s ease-in-out'; 
+    }, 400);
+
+    setTimeout(() => {
         blankBall.style.animation = '';
         fadeInRandomImage();
-    }, 1000);
+    }, 1400);
 }
 
 function fadeInRandomImage() {
