@@ -17,17 +17,17 @@ function shake8Ball() {
 
 function fadeInRandomImage() {
     const images = [
-        '/assets/answers/HELLYEAH.png',
-        '/assets/answers/IGUESS.png',
-        '/assets/answers/ITHINKNOT.png',
-        '/assets/answers/MAYBE.png',
-        '/assets/answers/NO.png',
-        '/assets/answers/NOOOOO.png',
-        '/assets/answers/ONLYYOUCANKNOWFORSURE.png',
-        '/assets/answers/SHAKEAGAIN.png',
-        '/assets/answers/UHHHH.png',
-        '/assets/answers/WHATTHEHELLSURE.png',
-        '/assets/answers/YES.png',
+        './assets/answers/HELLYEAH.png',
+        './assets/answers/IGUESS.png',
+        './assets/answers/ITHINKNOT.png',
+        './assets/answers/MAYBE.png',
+        './assets/answers/NO.png',
+        './assets/answers/NOOOOO.png',
+        './assets/answers/ONLYYOUCANKNOWFORSURE.png',
+        './assets/answers/SHAKEAGAIN.png',
+        './assets/answers/UHHHH.png',
+        './assets/answers/WHATTHEHELLSURE.png',
+        './assets/answers/YES.png',
     ];
 
     const randomIndex = Math.floor(Math.random() * images.length);
