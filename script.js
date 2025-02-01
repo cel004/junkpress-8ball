@@ -37,7 +37,7 @@ function fadeInRandomImage() {
     frontBall.src = randomImage;
     frontBall.style.opacity = 0;
     frontBall.style.paddingTop = '0.7rem';
-    frontBall.style.width = '25vw';
+    frontBall.style.width = '115px';
 
     setTimeout(() => {
         frontBall.style.transition = 'opacity 1s';
